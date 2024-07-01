@@ -1,0 +1,70 @@
+@media (max-width: 480px) {
+    header {
+        .list-microsoft {
+            display: none;
+        }
+
+        .list-microsoft-resp {
+            display: block;
+        }
+    }
+
+    .slide {
+        .carousel-inner {
+            height: 520px;
+            box-shadow: 0 .125rem .25rem 0 rgba(0, 0, 0, .13), 0 0 .0625rem 0 rgba(0, 0, 0, .11) !important;
+        }
+
+        .carousel-control-prev, .carousel-control-next {
+            top: -50px;
+        }
+
+        .img-carousel {
+            display: none;
+        }
+
+        .img-carousel-resp {
+            display: block;
+        }
+
+        .carousel-content {
+            width: 90%;
+            position: static;
+            margin-top: 20px;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .links-2 {
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .wrapper-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin: 40px 0;
+
+        .card {
+            width: 100%;
+            position: static;
+            padding: 5px;
+        }
+    }
+
+    .btn-home {
+        position: static;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
